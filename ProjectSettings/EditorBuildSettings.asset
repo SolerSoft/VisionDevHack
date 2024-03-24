@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Hack/Scenes/BasicScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  m_configObjects: {}
+  m_configObjects:
+    UnityEditor.XR.VisionOS.VisionOSSettings: {fileID: 11400000, guid: 105c1e25167ae4803b54d14c7286beea,
+      type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: b86b5b582dda54223b5cafa08e1881e4,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 848634812d2cf45ae963b0097cf7784a,
+      type: 2}
