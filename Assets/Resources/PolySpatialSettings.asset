@@ -24,15 +24,14 @@ MonoBehaviour:
     m_Bits: 0
   m_DisabledTrackers: []
   m_AdditionalTextureFormats: 
-  m_DefaultVolumeCameraWindowConfiguration: {fileID: 11400000, guid: 780e9fdf3d43042578153145466820cf,
-    type: 2}
+  m_DefaultVolumeCameraWindowConfiguration: {fileID: 11400000, guid: cfca9d641da824459be5edd273fb810b, type: 2}
   m_AutoCreateVolumeCamera: 1
   m_TransmitDebugInfo: 0
   m_EnableFallbackShaderConversion: 1
   m_EnableRuntimeValidation: 0
   m_RuntimeValidationFrameCount: 10
   m_ConnectionDiscoveryPort: 9877
-  m_ConnectionDiscoverySendInterval: 30
+  m_ConnectionDiscoverySendInterval: 1
   m_ConnectionDiscoveryTimeOutDuration: 5
   m_DeviceDisplayProviderParameters:
     framebufferWidth: 1920
@@ -84,7 +83,7 @@ MonoBehaviour:
   m_HidePolySpatialPreviewObjectsInScene: 1
   m_AlwaysLinkPolySpatialRuntime: 0
   m_PolySpatialNetworkingMode: 0
-  m_ConnectionTimeout: 2
+  m_ConnectionTimeout: 5
   m_EnableHostCameraControl: 0
   m_EnableClipping: 0
   m_SerializedServerAddresses:
