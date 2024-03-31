@@ -6,7 +6,7 @@ using UnityEngine.XR.Management;
 
 namespace PolySpatial.Template
 {
-    public class ARPlaneInteractable : XRBaseInteractable
+    public class ARPlaneInteractable : UnityEngine.XR.Interaction.Toolkit.Interactables.XRBaseInteractable
     {
         [SerializeField]
         float m_RayCastMaxDistance = 2f;

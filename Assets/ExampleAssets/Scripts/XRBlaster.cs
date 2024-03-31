@@ -6,9 +6,9 @@ namespace PolySpatial.Template
     /// <summary>
     /// An interactable that aligns/faces the position of the interactor
     /// </summary>
-    public class XRBlaster : XRGrabInteractable
+    public class XRBlaster : UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable
     {
-        IXRSelectInteractor m_Interactor;
+        UnityEngine.XR.Interaction.Toolkit.Interactors.IXRSelectInteractor m_Interactor;
         bool m_Front;
 
         protected override void OnEnable()
